@@ -171,3 +171,7 @@ const updatedBook = {
   pages: 1210,
 };
 updatedBook;
+
+//template literal
+const summary = `${title}, a ${pages}-page long book, was writen by ${author} and published in ${publicationDate}`;
+summary;
